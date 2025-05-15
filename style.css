@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url('../img/jwst_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3em;
+    text-align: center;
+    min-height: 100vh;
+}
+
+nav a {
+    color: #aad;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 2em;
+    margin: 2em;
+}
