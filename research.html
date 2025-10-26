@@ -1,104 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Research – Sergio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8">
+<title>Research – Sergio Moreno</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- === Featured Projects === -->
-    <section class="featured">
-    <h1>Featured Projects</h1>
-    
-    <!-- Fourier -->
-        <article class="card">
-        <div class="card-media">
-        <video controls preload="metadata">
-        <source src="assets/video/fourier_series.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-        </video>
-        </div>
-        <div class="card-body">
-        <h2>Fourier Series – Visual Animation</h2>
-        <p>Visualization of signal decomposition and reconstruction using Fourier series. Each harmonic term is animated to show convergence to the original waveform.</p>
-        </div>
-        </article>
-    
-    <!-- BSc Thesis -->
-        <article class="card">
-        <div class="card-media">
-        <div class="pdf-icon">PDF</div>
-        </div>
-        <div class="card-body">
-        <h2>Bachelor Thesis – Photon Orbits and Black Hole Shadow</h2>
-        <p>Theoretical study of photon trajectories around black holes, with analysis of the photon sphere and the shadow through geodesic equations.</p>
-        <a class="button" href="assets/docs/BSc_Thesis_SergioMoreno.pdf" target="_blank">📄 Read PDF</a>
-        </div>
-        </article>
-    
-    <!-- MSc Thesis -->
-        <article class="card">
-        <div class="card-media">
-        <div class="pdf-icon">PDF</div>
-        </div>
-        <div class="card-body">
-        <h2>Master Thesis – Gravitational Perturbations in Kerr Spacetime</h2>
-        <p>Derivation and application of Teukolsky equations to study quasinormal modes and tidal Love numbers in rotating (Kerr) black holes.</p>
-        <a class="button" href="assets/docs/MSc_Thesis_SergioMoreno.pdf" target="_blank">📄 Read PDF</a>
-        </div>
-        </article>
-        </section>
-    
-    <!-- === Thematic Sections === -->
-    <div class="research">
-    
-    <!-- Geometry & Mathematical Physics -->
-        <section>
-        <h2>Geometry & Mathematical Physics</h2>
-        <ol class="project-list">
-        <li><h3>Complex Functions and Conformal Mapping</h3><p>Grid deformations for f(z)=z², log(z), exp(z); phase and modulus color mapping.</p></li>
-        <li><h3>Special Functions (Bessel, Legendre, Hermite...)</h3><p>Classical ODE solutions and their physical interpretation.</p></li>
-        <li><h3>Minkowski Spacetime</h3><p>Light cones, worldlines, and Lorentz boosts animation.</p></li>
-        <li class="locked"><h3>3D Hyperbolic Space 🔒</h3><p>Coming soon • Poincaré/Klein models with geodesics and tessellations.</p></li>
-        <li class="locked"><h3>Ricci Flow 🔒</h3><p>Coming soon • Evolution of geometries under ∂g/∂t = −2 Ric.</p></li>
-        </ol>
-        </section>
-    
-    <!-- Relativity & Gravitational Waves -->
-        <section>
-        <h2>Relativity & Gravitational Waves</h2>
-        <ol class="project-list">
-        <li><h3>GW Signal and Grid Deformation</h3><p>h<sub>+</sub>, h<sub>×</sub> polarizations and mesh distortion.</p></li>
-        <li><h3>Geodesics in Kerr Metric</h3><p>Photon and particle trajectories, frame dragging effects.</p></li>
-        <li><h3>LISA Detector Deformed by GW</h3><p>Triangular constellation with varying arm lengths and optional time delay.</p></li>
-        <li class="locked"><h3>Lense–Thirring Effect 🔒</h3><p>Coming soon • Precession due to Kerr rotation.</p></li>
-        <li class="locked"><h3>Quasinormal Modes (Ringdown) 🔒</h3><p>Coming soon • Damped oscillatory modes (ℓ,m,n).</p></li>
-        </ol>
-        </section>
-    
-    <!-- Astrophysics & Cosmology -->
-        <section>
-        <h2>Astrophysics & Cosmology</h2>
-        <ol class="project-list">
-        <li><h3>Stellar Oscillations (p/g/f modes)</h3><p>Visualization of normal modes and their frequency spectra.</p></li>
-        <li><h3>Neutron Star Structure (TOV)</h3><p>Pressure, density and curvature profiles for different EoS.</p></li>
-        <li class="locked"><h3>Type II Supernova 🔒</h3><p>Coming soon • Core collapse, rebound and ejection simulation.</p></li>
-        <li class="locked"><h3>Large-Scale Structure Formation 🔒</h3><p>Coming soon • Evolution of δ(t,k) and hierarchical growth.</p></li>
-        <li class="locked"><h3>Neutron Star Merger 🔒</h3><p>Coming soon • GW + kilonova emission and post-merger signal.</p></li>
-        </ol>
-        </section>
-    
-    <!-- GNSS, Orbits & Applied Relativity -->
-        <section>
-        <h2>GNSS, Orbits & Applied Relativity</h2>
-        <ol class="project-list">
-        <li><h3>Relativistic Doppler and Aberration</h3><p>Sky distortion and frequency shift for moving observers.</p></li>
-        <li><h3>Perigee Precession (Newton vs GR)</h3><p>Comparison between Newtonian and relativistic orbital motion.</p></li>
-        <li class="locked"><h3>GNSS Signal Delay (Ionosphere/Troposphere + PRS) 🔒</h3><p>Coming soon • Propagation path, refraction and solar radiation pressure.</p></li>
-        </ol>
-        </section>
-    
-    </div>
+
+<div class="overlay">
+<h1>Research</h1>
+<p>Explore my projects organized by theme and difficulty level.</p>
+<nav>
+<a href="index.html">Home</a>
+</nav>
+</div>
+
+<!-- === Hub with 4 Research Categories === -->
+<section class="research-hub">
+<a class="hub-card" href="research-geometry.html">
+<h3>Geometry & Mathematical Physics</h3>
+<p>Conformal maps, special functions, hyperbolic geometry, Ricci flow...</p>
+</a>
+<a class="hub-card" href="research-relativity.html">
+<h3>Relativity & Gravitational Waves</h3>
+<p>Wave signals, Kerr geodesics, lensing, LISA, ringdown...</p>
+</a>
+<a class="hub-card" href="research-astrophysics.html">
+<h3>Astrophysics & Cosmology</h3>
+<p>Stellar oscillations, neutron stars, supernovae, large-scale structure...</p>
+</a>
+<a class="hub-card" href="research-gnss.html">
+<h3>GNSS, Orbits & Applied Relativity</h3>
+<p>Doppler, orbital precession, ionospheric and solar radiation effects...</p>
+</a>
+</section>
 
 </body>
 </html>
