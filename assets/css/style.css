@@ -7,6 +7,10 @@ background-size: cover;
 color: white;
 }
 
+@media (max-width: 768px) {
+body { background-attachment: scroll; }
+}
+
 .overlay {
 background-color: rgba(0, 0, 0, 0.6);
 padding: 3em;
