@@ -3,12 +3,16 @@ margin: 0;
 font-family: sans-serif;
 background: url('/assets/img/weic2426a.jpg') no-repeat center center;
 background-attachment: scroll;
-background-size: contain;
-background-color: #000;
+background-size: cover;
+color: white;
 }
 
 @media (max-width: 768px) {
-body { background-attachment: scroll; }
+body { 
+     background-attachment: scroll; 
+     background-attachment: cover;
+     background-attachment: center center;
+     }
 }
 
 .overlay {
