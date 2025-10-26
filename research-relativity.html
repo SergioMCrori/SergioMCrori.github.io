@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Relativity & Gravitational Waves – Sergio</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="research">
+<h1>Relativity & Gravitational Waves</h1>
+<div class="filter">
+<button data-level="all" class="pill active">All</button>
+<button data-level="L1" class="pill">Level 1</button>
+<button data-level="L2" class="pill">Level 2</button>
+<button data-level="L3" class="pill">Level 3</button>
+</div>
+
+<ol class="project-list">
+<li class="project L1"><h3>GW Signal and Grid Deformation</h3><span class="badge L1">L1</span></li>
+<li class="project L1"><h3>Spherical Harmonic Decomposition</h3><span class="badge L1">L1</span></li>
+<li class="project L2"><h3>Geodesics in Kerr Metric</h3><span class="badge L2">L2</span></li>
+<li class="project L2"><h3>Gravitational Lensing (Schwarzschild & Kerr)</h3><span class="badge L2">L2</span></li>
+<li class="project L2"><h3>Binary Inspiral with GW Power Loss</h3><span class="badge L2">L2</span></li>
+<li class="project L3 locked"><h3>LISA Detector Deformed by GW (Coming soon 🔒)</h3><span class="badge L3">L3</span></li>
+<li class="project L3 locked"><h3>Lense–Thirring / Frame Dragging (Coming soon 🔒)</h3><span class="badge L3">L3</span></li>
+<li class="project L3 locked"><h3>Black Hole Quasinormal Modes (Coming soon 🔒)</h3><span class="badge L3">L3</span></li>
+</ol>
+<p class="coming-soon">More advanced relativity projects coming soon... 🔒</p>
+</div>
+
+<script>
+const buttons=document.querySelectorAll('.pill');
+const items=document.querySelectorAll('.project');
+buttons.forEach(b=>b.addEventListener('click',()=>{
+buttons.forEach(x=>x.classList.remove('active'));
+b.classList.add('active');
+const lvl=b.dataset.level;
+items.forEach(it=>{
+it.style.display=(lvl==='all'||it.classList.contains(lvl))?'':'none';
+});
+}));
+</script>
+</body>
+</html>
